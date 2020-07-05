@@ -1,0 +1,21 @@
+footer {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fab {
+    cursor: pointer;
+    font-size: 35px;
+    transition: .3s ease-in-out;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+.footerLink {
+    color: black;
+}

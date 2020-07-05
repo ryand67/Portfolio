@@ -11,7 +11,13 @@ nav {
     margin-left: 2em;
     font-family: 'Yellowtail', sans-serif;
     cursor: pointer;
+    text-decoration: none;
     transition: .3s ease-in-out;
+}
+
+.logo * {
+    text-decoration: none;
+    color: black;
 }
 
 .logo:hover {
@@ -47,7 +53,7 @@ nav {
 }
 
 .hero {
-    height: 100vh;
+    height: 92vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -63,7 +69,7 @@ nav {
 
 .heroDesc {
     font-family: 'Open Sans Condensed';
-    letter-spacing: .3em;
+    letter-spacing: .25em;
 }
 
 hr {
