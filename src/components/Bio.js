@@ -8,9 +8,18 @@ const Bio = () => {
             <section className="bioSect">
                 <img src={profilePic} alt="Profile picture" className="profilePic"/>
                 <div className="aboutText">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam sit repudiandae vitae a iusto laudantium accusamus ipsa adipisci nobis cupiditate possimus explicabo atque delectus veniam laboriosam autem laborum, aliquam in temporibus ratione perferendis ex unde? Iste quidem eveniet dignissimos nesciunt a, dolores delectus officiis ullam quae dolorum aperiam blanditiis?</p>
+                    <p>I'm Ryan, full-stack developer from Charlotte, NC.</p>
                 </div>
             </section>
+            <div className="tech-div">
+                <h2 className="tech-list-header">Technologies:</h2>
+                <ul className="tech-list">
+                    <li className="tech-list-li"><i className="fab fa-react tech-list-item"></i></li>
+                    <li className="tech-list-li"><i className="fab fa-html5 tech-list-item"></i></li>
+                    <li className="tech-list-li"><i className="fab fa-css3-alt tech-list-item"></i></li>
+                    <li className="tech-list-li"><i className="fab fa-node-js tech-list-item"></i></li>
+                </ul>
+            </div>
         </section>
     )
 }

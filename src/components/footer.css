@@ -5,13 +5,13 @@ footer {
     justify-content: space-between;
 }
 
-.fab {
+.click-icon {
     cursor: pointer;
-    font-size: 35px;
     transition: .3s ease-in-out;
+    font-size: 35px;
 }
 
-.fab:hover {
+.click-icon:hover {
     transform: scale(1.1);
     transition: .3s ease-in-out;
 }

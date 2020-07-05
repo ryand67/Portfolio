@@ -62,9 +62,12 @@ nav {
 }
 
 .heroLogo {
+    padding-bottom: .2em;
     font-family: 'Yellowtail';
     font-weight: 300;
     font-size: 3em;
+    transform: rotateZ(-6deg);
+    transition: .3s ease-in-out;
 }
 
 .heroDesc {
