@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <main className="hero">
             <h1 className="heroLogo">Ryan Devenney</h1>
-            <p className="heroDesc">Full-stack dev and musician</p>
+            <p className="heroDesc">Full-stack dev</p>
             <hr/>
             <Button text="About Me" href="/about" />
         </main>

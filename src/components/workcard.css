@@ -1,0 +1,23 @@
+.workCard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.workImg:hover {
+    transition: .3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.workImg {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.082);
+    cursor: pointer;
+    width: 17em;
+    transition: .3s ease-in-out;
+}
+
+.gitHubLink {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

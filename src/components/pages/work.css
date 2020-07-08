@@ -1,0 +1,23 @@
+.workPage {
+    padding-top: 5vh;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.workTitle {
+    font-family: 'Yellowtail', sans-serif;
+    margin-top: 5em;
+    margin: 0 auto;
+}
+
+.workGallery {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

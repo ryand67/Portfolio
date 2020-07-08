@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './index.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact'
 
@@ -11,6 +11,7 @@ function App() {
   return (
     <body>
       <Router >
+      <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -29,7 +30,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <Footer />
     </body>
   );
 }
