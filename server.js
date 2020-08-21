@@ -1,16 +1,15 @@
-// const express = require('express');
-// const path = require('path');
+const express = require('express');
+const path = require('path');
+const PORT = process.env.PORT || 3001;
 
-// const app = express();
+const app = express();
 
-// const PORT = process.env.PORT || 3000;
+app.use(express.static(path.join(__dirname, 'client/build')));
 
-// app.use(express.static('./build'));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client/build/index.html'));
+})
 
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join('./public/index.html'));
-// })
-
-// app.listen(PORT, () => {
-//     console.log('Connected')
-// })
+app.listen(PORT, () => {
+    console.log(`LISTENING ON ${PORT}`)
+})
