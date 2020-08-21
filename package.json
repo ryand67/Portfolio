@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "startReact": "cd client && npm run start",
     "dev": "concurrently \"nodemon server.js\" \"npm run startReact\"",
+    "start": "node server.js",
     "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "repository": {
