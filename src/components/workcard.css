@@ -1,7 +1,14 @@
 .workCard {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 1em;
+}
+
+.workDesc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 20em;
+    margin: 0 auto;
 }
 
 .workImg {
@@ -13,6 +20,7 @@
 
 .gitHubLink {
     text-decoration: none;
+    font-weight: bold;
     color: black;
     font-family: 'Open Sans Condensed', sans-serif;
 }

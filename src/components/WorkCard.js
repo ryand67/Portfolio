@@ -5,6 +5,7 @@ const WorkCard = (props) => {
     return (
         <div className="workCard">
             <a href={props.deployed} target="_blank"><img src={props.imgSrc} alt={props.alt} className="workImg"/></a>
+            <p className="workDesc">{props.desc}</p>
             <a href={props.gitHub} target="_blank" className="gitHubLink">GitHub Repo</a>
         </div>
     )
