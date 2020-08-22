@@ -11,18 +11,20 @@ const Bio = () => {
                     <p>I'm Ryan, full-stack developer from Charlotte, NC.</p>
                 </div>
             </section>
-            {/* <div className="tech-div">
+            <div className="tech-div">
                 <h2 className="tech-list-header">Technologies:</h2>
-                <ul className="tech-list">
-                    <li className="tech-list-li"><i className="fab fa-html5 tech-list-item"></i></li>
-                    <li className="tech-list-li"><i className="fab fa-css3-alt tech-list-item"></i></li>
-                    <li className="tech-list-li"><i class="fab fa-js tech-list-item"></i></li>
-                </ul>
-                <ul className="tech-list">
-                    <li className="tech-list-li"><i className="fab fa-node-js tech-list-item"></i></li>
-                    <li className="tech-list-li"><i className="fab fa-react tech-list-item"></i></li>
-                </ul>
-            </div> */}
+                <div className="tech-list-div">
+                    <ul className="tech-list">
+                        <li className="tech-list-li"><i className="fab fa-html5 tech-list-item"></i></li>
+                        <li className="tech-list-li"><i className="fab fa-css3-alt tech-list-item"></i></li>
+                        <li className="tech-list-li"><i class="fab fa-js tech-list-item"></i></li>
+                    </ul>
+                    <ul className="tech-list">
+                        <li className="tech-list-li"><i className="fab fa-node-js tech-list-item"></i></li>
+                        <li className="tech-list-li"><i className="fab fa-react tech-list-item"></i></li>
+                    </ul>
+                </div>
+            </div>
         </section>
     )
 }

@@ -129,15 +129,19 @@ button:hover {
     }
 
     .nav-list {
-        margin-left: auto;
+        margin-left: 60%;
     }
 
     .logo {
-        margin-left: .5em;
+        margin-left: 0;
     }
 
     .nav-item {
         margin: 0;
         margin-left: 1em;
+    }
+
+    .tech-list {
+        
     }
 }

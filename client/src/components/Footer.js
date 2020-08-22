@@ -13,6 +13,9 @@ const Footer = () => {
             <a className="footerLink" href="https://www.instagram.com/ryan_devenney67/" target="_blank">
                 <i className="fab click-icon fa-instagram fa-2x"></i>
             </a>
+            <a className="footerLink" href="https://www.linkedin.com/in/ryandevenney67/" target="_blank">
+                <i className="fab click-icon fa-linkedin fa-2x"></i>
+            </a>
         </footer>
     )
 }
