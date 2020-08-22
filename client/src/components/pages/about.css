@@ -1,7 +1,7 @@
 .bioMain {
     padding-top: .8em;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,6 +101,7 @@
     .tech-list {
         width: 100vw;
         padding: 0;
+        height: 100%;
     }
 
     .tech-list-item {

@@ -1,5 +1,10 @@
 import React from 'react';
 import profilePic from '../assets/ryanPicture.jpg';
+// npm install --save-dev @iconify/react @iconify/icons-simple-icons
+import { Icon, InlineIcon } from '@iconify/react';
+import mongodbIcon from '@iconify/icons-simple-icons/mongodb';
+import mysqltwoIcon from '@iconify/icons-whh/mysqltwo';
+
 
 const Bio = () => {
     return (
@@ -22,6 +27,7 @@ const Bio = () => {
                     <ul className="tech-list">
                         <li className="tech-list-li"><i className="fab fa-node-js tech-list-item"></i></li>
                         <li className="tech-list-li"><i className="fab fa-react tech-list-item"></i></li>
+                        <Icon icon={mongodbIcon} className="tech-list-item" />
                     </ul>
                 </div>
             </div>
