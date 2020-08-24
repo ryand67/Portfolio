@@ -19,3 +19,9 @@ footer {
 .footerLink {
     color: black;
 }
+
+@media only screen and (max-width: 550px) {
+    footer {
+        width: 80%;
+    }
+}

@@ -24,3 +24,14 @@
     color: black;
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .workImg {
+        width: 10em;
+    }
+
+    .workDesc {
+        width: 75%;
+        font-size: .8em;
+    }
+}
