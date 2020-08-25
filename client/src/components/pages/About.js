@@ -6,7 +6,6 @@ import Bio from '../Bio';
 const About = () => {
     return (
         <main>
-            <Navbar />
             <Bio />
         </main>
     )

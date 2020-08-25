@@ -1,6 +1,6 @@
 .workPage {
     padding-top: 5vh;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,5 +24,11 @@
 @media only screen and (max-width: 1150px) {
     .workGallery {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .workGalleryBottom {
+        margin-bottom: 1em;
     }
 }
