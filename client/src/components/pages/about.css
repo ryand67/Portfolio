@@ -63,6 +63,7 @@
 .techRow {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 740px) {
