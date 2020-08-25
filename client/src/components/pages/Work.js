@@ -11,8 +11,8 @@ const Work = () => {
         <main className="workPage">
             <h1 className="workTitle">Work</h1>
             <div className="workGallery">
-                <WorkCard imgSrc={work1} gitHub="https://github.com/JRivera-31/Innovation-Auto-Repair" deployed="https://innovation-auto-repair.vercel.app/" alt="Innovation Auto Parts Screenshot" desc="An app for an auto repair company in Texas that allows customers to book appointments, and for the owners to manage appointments, and dates available."/>
-                <WorkCard imgSrc={work2} gitHub="https://github.com/ryand67/Squawkr" deployed="https://squawkr-uncc.herokuapp.com/" alt="Squawkr Screenshot" desc="A simple message board/social media platform for people to share ideas with each other and their friends." />
+                <WorkCard imgSrc={work1} gitHub="https://github.com/JRivera-31/Innovation-Auto-Repair" deployed="https://innovation-auto-repair.vercel.app/" alt="Innovation Auto Parts Screenshot" desc="An app for an auto repair company in Texas that allows customers to book appointments, and allows the owners to manage appointments, and available dates."/>
+                <WorkCard imgSrc={work2} gitHub="https://github.com/ryand67/Squawkr" deployed="https://squawkr-uncc.herokuapp.com/" alt="Squawkr Screenshot" desc="A simple message board/social media platform for people to share ideas with others." />
                 
             </div>
             <div className="workGallery workGalleryBottom">
