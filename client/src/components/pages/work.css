@@ -14,6 +14,7 @@
 
 .workGallery {
     margin: 0 auto;
+    margin-bottom: 1em;
     display: flex;
     flex-direction: row;
     justify-content: center;
