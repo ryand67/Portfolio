@@ -29,6 +29,10 @@
 }
 
 @media only screen and (max-width: 450px) {
+    .workTitle {
+        margin-top: .3em;
+    }
+    
     .workGalleryBottom {
         margin-bottom: 1em;
     }
