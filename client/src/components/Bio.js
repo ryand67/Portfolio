@@ -27,7 +27,8 @@ const Bio = () => {
                     <ul className="tech-list">
                         <li className="tech-list-li"><i className="fab fa-node-js tech-list-item"></i></li>
                         <li className="tech-list-li"><i className="fab fa-react tech-list-item"></i></li>
-                        <Icon icon={mongodbIcon} className="tech-list-item" />
+                        <li className="tech-list-li"><i className="fab fa-git-alt tech-list-item"></i></li>
+                        {/* <Icon icon={mongodbIcon} className="tech-list-item" /> */}
                     </ul>
                 </div>
             </div>

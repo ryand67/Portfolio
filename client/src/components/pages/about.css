@@ -41,6 +41,7 @@
 
 .tech-div {
     text-align: center;
+    overflow: hidden;
 }
 
 .tech-list-header {
@@ -53,7 +54,7 @@
 
 .tech-list {
     margin: .5em 0;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
@@ -69,7 +70,7 @@
 }
 
 .tech-list-div {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -105,6 +106,13 @@
     }
 
     .tech-list-item {
-        margin: 0 .3em;
+        text-align: center;
+        margin: 0 .5em;
+        font-size: 3em;
+    }
+
+    .tech-list-div {
+        width: 100vw;
+        overflow: hidden;
     }
 }
