@@ -74,6 +74,8 @@
 
     .aboutText {
         width: 100%;
+        font-size: 1.3em;
+        margin-bottom: .5em;
     }
 
     .about-heading {
