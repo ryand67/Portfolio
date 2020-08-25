@@ -123,6 +123,7 @@ button:hover {
 @media only screen and (max-width: 500px) {
     .hero {
         text-align: center;
+        height: 85vh;
     }
 
     .heroLogo {
@@ -140,9 +141,5 @@ button:hover {
     .nav-item {
         margin: 0;
         margin-left: 1em;
-    }
-
-    .tech-list {
-        
     }
 }
