@@ -1,9 +1,9 @@
 import React from 'react';
 import profilePic from '../assets/ryanPicture.jpg';
 // npm install --save-dev @iconify/react @iconify/icons-simple-icons
-import { Icon, InlineIcon } from '@iconify/react';
-import mongodbIcon from '@iconify/icons-simple-icons/mongodb';
-import mysqltwoIcon from '@iconify/icons-whh/mysqltwo';
+// import { Icon, InlineIcon } from '@iconify/react';
+// import mongodbIcon from '@iconify/icons-simple-icons/mongodb';
+// import mysqltwoIcon from '@iconify/icons-whh/mysqltwo';
 
 
 const Bio = () => {
