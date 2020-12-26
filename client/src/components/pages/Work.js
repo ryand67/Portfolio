@@ -16,7 +16,7 @@ const Work = () => {
             </div>
             <div className="workGallery workGalleryBottom">
                 <WorkCard imgSrc={work3} gitHub="https://github.com/ryand67/Weather-Dashboard" deployed="https://ryand67.github.io/Weather-Dashboard/" title="Weather Dashboard" alt="Weather Dashboard Link" desc="An app that allows users to check the current weather of any city and receive a 5 day forecast." />
-                <WorkCard imgSrc={work4} deployed="http://tsg-live-preview.herokuapp.com/" title="TravelSalesGroup" gitHub="https://github.com/ryand67/TSG-Site" desc="A site to promote the services of the travel agency TravelSalesGroup." />
+                <WorkCard imgSrc={work4} deployed="www.travelsalesgroup.com" title="TravelSalesGroup" gitHub="https://github.com/ryand67/TSG-Site" desc="A site to promote the services of the travel agency TravelSalesGroup." />
             </div>
         </main>
     )
