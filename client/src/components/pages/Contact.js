@@ -15,9 +15,9 @@ const Contact = () => {
                 </li>
 
                 <li className="contactLi">
-                    <a href="https://www.instagram.com/ryan_devenney67/" target="_blank">
-                        <i className="fab contact-icon fa-instagram fa-2x"></i>
-                            @ryan_devenney67
+                    <a href="https://www.linkedin.com/in/ryandevenney67/" target="_blank">
+                        <i className="fab contact-icon fa-linkedin fa-2x"></i>
+                            @ryandevenney67
                     </a>
                 </li>
 
