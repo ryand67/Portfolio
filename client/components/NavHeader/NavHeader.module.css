@@ -36,3 +36,9 @@
 .navListItem:hover::before {
     transform: scaleX(.9);
 }
+
+@media only screen and (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+}

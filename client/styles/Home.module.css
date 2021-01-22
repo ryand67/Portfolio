@@ -57,3 +57,17 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+@media only screen and (max-width: 900px) {
+  .homeMain {
+    padding-left: .5em;
+    height: 100vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    font-size: 4.5em;
+  }
+  .subHeadInfo {
+    width: 90%;
+  }
+}

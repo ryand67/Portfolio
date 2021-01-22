@@ -10,3 +10,9 @@
 .techList {
     color: var(--orange-accent);
 }
+
+@media only screen and (max-width: 500px) {
+    .workCardHeader {
+        font-size: 2em;
+    }
+}
