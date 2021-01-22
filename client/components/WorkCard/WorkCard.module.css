@@ -1,0 +1,12 @@
+.workCard {
+    width: 50%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.workCardHeader {
+    font-size: 2.5em;
+}
+
+.techList {
+    color: var(--orange-accent);
+}

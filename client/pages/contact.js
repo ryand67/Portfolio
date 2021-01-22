@@ -38,7 +38,7 @@ export default function contact() {
                     <label htmlFor="name">Name:</label>
                     <input id="name" type="text" placeholder="John Doe" name="name"/>
                     <label htmlFor="formEmail">Email Address:</label>
-                    <input id="formEmail" name="formEmail" type="text" placeholder="example@website.com"/>
+                    <input id="formEmail" name="formEmail" type="email" placeholder="example@website.com"/>
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Put your message here."></textarea>
                     <button type="submit">Submit</button>
