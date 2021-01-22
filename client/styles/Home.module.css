@@ -1,5 +1,6 @@
 /* FONTS */
 /* font-family: 'Playfair Display', serif; */
+/* font-family: 'Nanum Gothic', sans-serif; */
 
 .container {
   background-color: var(--main-accent);
@@ -25,6 +26,13 @@
   font-weight: 600;
 }
 
+.subHeadInfo {
+  padding-left: 4em;
+  margin-top: 2em;
+}
+
 .subHeader {
+  margin: .5em;
   font-size: 2em;
+  font-family: 'Nanum Gothic', sans-serif;
 }
