@@ -21,6 +21,7 @@ export default function Home() {
         <h1 className={styles.mainHeader}>Ryan Devenney</h1>
         <div className={styles.subHeadInfo}>
           <h2 className={styles.subHeader}>I'm a full stack React and NextJS developer located in Charlotte, NC looking to make your next project a reality.</h2>
+          <h2 className={styles.subHeader}>Check out my past work <a href="/work" className={styles.mainLink}>here</a>.</h2>
         </div>
       </main>
 
