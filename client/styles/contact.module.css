@@ -1,0 +1,14 @@
+.contact {
+    margin: 0;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text);
+}
+
+.contactHeader {
+    font-family: 'Playfair Display';
+    color: var(--main-text);
+    font-size: 5em;
+}
