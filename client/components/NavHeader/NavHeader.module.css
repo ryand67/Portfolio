@@ -1,0 +1,38 @@
+.nav {
+    padding-left: 4em;
+    height: 5vh;
+    margin-top: 0;
+    color: var(--main-text);
+    /* position: relative; */
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navListItem {
+    font-size: 2em;
+    padding-right: 1.5em;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.navListItem::before {
+    z-index: 9;
+    content: '';
+    position: absolute;
+    top: 55px;
+    width: 60px;
+    height: 3px;
+    background-color: var(--orange-accent);
+    transform-origin: center;
+    transform: scaleX(.5);
+    transition: .3s ease-in-out;
+}
+
+.navListItem:hover::before {
+    transform: scaleX(.9);
+}

@@ -1,0 +1,15 @@
+.workPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--main-text);
+    margin-bottom: 5em;;
+}
+
+.workHeader {
+    font-family: 'Playfair Display';
+    font-size: 5em;
+    margin: 0;
+}

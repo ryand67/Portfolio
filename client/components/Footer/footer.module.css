@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--main-accent);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text);
+    z-index: 99;
+}
+
+.footerIcons {
+    margin-bottom: 1em;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerIcon {
+    color: var(--main-text);
+    font-size: 2.5em;
+    margin: 0 1em;
+    cursor: pointer;
+}
