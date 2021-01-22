@@ -15,13 +15,12 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"></link>
       </Head>
 
+      <NavHeader />
       <main className={styles.homeMain}>
-        <NavHeader />
-        
+
         <h1 className={styles.mainHeader}>Ryan Devenney</h1>
         <div className={styles.subHeadInfo}>
-          <h2 className={styles.subHeader}>- Full Stack Developer</h2>
-          <h2 className={styles.subHeader}>- Charlotte, NC</h2>
+          <h2 className={styles.subHeader}>I'm a full stack React and NextJS developer located in Charlotte, NC looking to make your next project a reality.</h2>
         </div>
       </main>
 
