@@ -60,11 +60,11 @@
 
 @media only screen and (max-width: 900px) {
   .container {
-    height: 50vh;
+    height: 80vh;
   }
   .homeMain {
     padding-left: .5em;
-    height: 60vh;
+    height: 80vh;
     width: 100vw;
     font-size: 12px;
     align-items: center;
