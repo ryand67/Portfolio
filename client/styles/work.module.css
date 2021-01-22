@@ -18,6 +18,7 @@
     .workPage {
         padding-top: 1em;
         align-items: flex-start;
-        margin-left: 3em;
+        padding-left: 3em;
+        margin-bottom: .5em;
     }
 }
