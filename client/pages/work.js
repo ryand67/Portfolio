@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head';
 import Nav from '../components/NavHeader/NavHeader';
 import Footer from '../components/Footer/Footer';
 import styles from '../styles/work.module.css';
 import WorkCard from '../components/WorkCard/WorkCard';
+import MobileNav from '../components/MobileNav/MobileNav';
 
 export default function work() {
+
+    const [windowWidth, setWindowWidth] = useState();
+
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            setWindowWidth(window.innerWidth);
+          })
+    })
 
     const workData = [{
         name: 'TravelSalesGroup',
@@ -44,7 +53,7 @@ export default function work() {
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"></link>
             </Head>
 
-            <Nav />
+            {windowWidth > 650 ? <Nav /> : <MobileNav />}
 
             <div className={styles.workPage}>
                 <h1 className={styles.workHeader}>Work:</h1>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './WorkCard.module.css';
 
 export default function WorkCard({ props }) {
-    console.log(props);
+
     let techList = '';
     props.tech.map(tech => {
         techList += `#${tech}  `

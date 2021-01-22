@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head';
 import Nav from '../components/NavHeader/NavHeader';
 import Footer from '../components/Footer/Footer';
 import styles from '../styles/contact.module.css';
 import emailjs from 'emailjs-com';
+import MobileNav from '../components/MobileNav/MobileNav';
 
 export default function contact() {
+
+    const [windowWidth, setWindowWidth] = useState();
+
+    useEffect(() => {
+        setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', () => {
+            setWindowWidth(window.innerWidth);
+          })
+        })
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
@@ -31,7 +41,7 @@ export default function contact() {
                 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"></link>
             </Head>
-            <Nav />
+            {windowWidth > 650 ? <Nav /> : <MobileNav />}
             <main className={styles.contact}>
                 <h1 className={styles.contactHeader}>Contact</h1>
                 <form onSubmit={(e) => handleFormSubmit(e)} className={styles.contactForm} action="">

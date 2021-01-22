@@ -1,9 +1,21 @@
 import Head from 'next/head'
+import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer/Footer';
 import NavHeader from '../components/NavHeader/NavHeader';
+import MobileNav from '../components/MobileNav/MobileNav';
 
 export default function Home() {
+
+  const [windowWidth, setWindowWidth] = useState();
+
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth);
+      })
+    })
+
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +27,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"></link>
       </Head>
 
-      <NavHeader />
+      {windowWidth > 650 ? <NavHeader /> : <MobileNav />}
       <main className={styles.homeMain}>
         <h1 className={styles.mainHeader}>Ryan Devenney</h1>
         <div className={styles.subHeadInfo}>
