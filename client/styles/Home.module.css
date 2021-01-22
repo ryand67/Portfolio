@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 900px) {
   .container {
-    height: 80vh;
+    height: 100%;
   }
   .homeMain {
     padding-left: .5em;
