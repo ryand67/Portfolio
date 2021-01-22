@@ -11,6 +11,7 @@ export default function work() {
     const [windowWidth, setWindowWidth] = useState();
 
     useEffect(() => {
+        setWindowWidth(window.innerWidth);
         window.addEventListener('resize', () => {
             setWindowWidth(window.innerWidth);
           })
