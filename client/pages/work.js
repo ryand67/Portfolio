@@ -22,7 +22,9 @@ export default function work() {
     }, {
         name: 'Innovation Auto Repair',
         desc: "An app for an auto repair company in Texas that allows customers to bookappointments, and allows the owners to manage appointments, and available dates",
-        tech: ['Next.js', 'CSS', 'MongoDB', 'Node.js', 'Express']
+        tech: ['Next.js', 'CSS', 'MongoDB', 'Node.js', 'Express'],
+        gitLink: 'https://github.com/JRivera-31/Innovation-Auto-Repair',
+        live: 'https://innovation-auto-repair.vercel.app/'
     }, {
         name: 'TrailHeads',
         desc: 'A simple app that allows users to find hiking trails near them.',
