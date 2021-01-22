@@ -1,26 +1,30 @@
 /* FONTS */
-/* font-family: 'Yusei Magic', sans-serif; */
-/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Playfair Display', serif; */
 
 .container {
   background-color: var(--main-accent);
   min-height: 100vh;
   padding: 0 0.5rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   color: var(--main-text);
+}
+
+.homeMain {
+  width: 100%;
+  padding-left: 5em;
 }
 
 .mainHeader {
   font-size: 6em;
   margin: 0;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: 'Playfair Display';
+  font-weight: 600;
 }
 
 .subHeader {
   font-size: 2em;
-  font-family: 'Yusei Magic', sans-serif;
 }

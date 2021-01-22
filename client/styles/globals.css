@@ -1,6 +1,7 @@
+/* Global Colors/Properties */
 :root {
-  --main-text: rgb(53, 53, 53);
-  --main-accent: #ffffff;
+  --main-text: rgb(60, 55, 71);
+  --main-accent: #f3f0f0;
 }
 
 html,

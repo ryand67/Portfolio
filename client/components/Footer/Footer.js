@@ -8,6 +8,7 @@ export default function Footer() {
                 <a><i className={`${styles.footerIcon} fab fa-github`}></i></a>
                 <a><i className={`${styles.footerIcon} fab fa-linkedin asdf`}></i></a>
                 <a><i className={`${styles.footerIcon} fab fa-instagram`}></i></a>
+                <a><i className={`${styles.footerIcon} fas fa-envelope-square`}></i></a>
             </section>
         </footer>
     )
