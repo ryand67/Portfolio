@@ -1,14 +1,27 @@
 .contact {
     margin: 0;
-    height: 90vh;
+    height: 80vh;
+    color: var(--main-text);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-text);
+    flex-direction: column;
 }
 
 .contactHeader {
     font-family: 'Playfair Display';
     color: var(--main-text);
     font-size: 5em;
+    margin: 0;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: var(--main-text);
+}
+
+.contactForm * {
+    margin-bottom: 1em;
 }
