@@ -42,6 +42,7 @@ export default function contact() {
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"></link>
             </Head>
             {windowWidth > 650 ? <Nav /> : <MobileNav />}
+            {/* asdf */}
             <main className={styles.contact}>
                 <h1 className={styles.contactHeader}>Contact</h1>
                 <form onSubmit={(e) => handleFormSubmit(e)} className={styles.contactForm} action="">
