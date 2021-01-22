@@ -39,6 +39,10 @@
 
 @media only screen and (max-width: 900px) {
     .nav {
-        display: none;
+        padding-left: 0;
+    }
+
+    .navListItem {
+        padding-right: 0;
     }
 }
