@@ -31,7 +31,7 @@ export default function work() {
         live: 'https://squawkr-uncc.herokuapp.com/'
     }, {
         name: 'Innovation Auto Repair',
-        desc: "An app for an auto repair company in Texas that allows customers to bookappointments, and allows the owners to manage appointments, and available dates",
+        desc: "An app for an auto repair company in Texas that allows customers to bookappointments, and allows the owners to manage appointments, and available dates.",
         tech: ['Next.js', 'CSS', 'MongoDB', 'Node.js', 'Express'],
         gitLink: 'https://github.com/JRivera-31/Innovation-Auto-Repair',
         live: 'https://innovation-auto-repair.vercel.app/'
