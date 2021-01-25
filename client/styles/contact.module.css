@@ -49,6 +49,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .contact {
+        height: 75vh;
+    }
+    
     .contactForm {
         width: 85%;
     }
