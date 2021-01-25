@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--main-accent);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text);
+    z-index: 99;
+}
+
+.footerIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerIcon {
+    padding-bottom: .5em;
+    font-size: 2em;
+}

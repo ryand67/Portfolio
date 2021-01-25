@@ -1,6 +1,7 @@
 .contact {
     margin: 0;
     height: 80vh;
+    width: 100%;
     color: var(--main-text);
     display: flex;
     justify-content: center;

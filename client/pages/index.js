@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer/Footer';
 import NavHeader from '../components/NavHeader/NavHeader';
 import MobileNav from '../components/MobileNav/MobileNav';
+import MobileFooter from '../components/MobileFooter/MobileFooter';
 
 export default function Home() {
 
@@ -36,7 +37,7 @@ export default function Home() {
         </div>
       </main>
 
-      <Footer />
+      {windowWidth > 800 ? <Footer /> : <MobileFooter />}
     </div>
   )
 }

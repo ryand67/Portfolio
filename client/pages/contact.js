@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer';
 import styles from '../styles/contact.module.css';
 import emailjs from 'emailjs-com';
 import MobileNav from '../components/MobileNav/MobileNav';
+import MobileFooter from '../components/MobileFooter/MobileFooter';
 
 export default function contact() {
 
@@ -54,7 +55,7 @@ export default function contact() {
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Put your message here."></textarea>
                     <button type="submit">Submit</button>
                 </form>
-                <Footer />
+                {windowWidth > 800 ? <Footer /> : <MobileFooter />}
             </main>
         </>
     )

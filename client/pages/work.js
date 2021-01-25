@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer';
 import styles from '../styles/work.module.css';
 import WorkCard from '../components/WorkCard/WorkCard';
 import MobileNav from '../components/MobileNav/MobileNav';
+import MobileFooter from '../components/MobileFooter/MobileFooter';
 
 export default function work() {
 
@@ -63,7 +64,7 @@ export default function work() {
                 })}
             </div>
 
-            <Footer />
+            {windowWidth > 800 ? <Footer /> : <MobileFooter />}
         </div>
     )
 }
