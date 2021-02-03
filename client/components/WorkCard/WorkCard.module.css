@@ -17,6 +17,11 @@
     margin: 0;
 }
 
+.links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 @media only screen and (max-width: 500px) {
     .workCardHeader {
         font-size: 2em;
