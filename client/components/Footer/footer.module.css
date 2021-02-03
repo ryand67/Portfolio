@@ -8,6 +8,7 @@
     align-items: center;
     color: var(--main-text);
     z-index: 99;
+    padding-top: .5em;
 }
 
 .footerIcons {
