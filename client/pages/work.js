@@ -10,14 +10,14 @@ import MobileFooter from '../components/MobileFooter/MobileFooter';
 export default function work() {
 
     const [windowWidth, setWindowWidth] = useState();
-
+    
     useEffect(() => {
         setWindowWidth(window.innerWidth);
         window.addEventListener('resize', () => {
             setWindowWidth(window.innerWidth);
-          })
+        })
     })
-
+    
     const workData = [{
         name: 'TravelSalesGroup',
         desc: 'A site to promote the services of the travel agency TravelSalesGroup.',
@@ -44,6 +44,30 @@ export default function work() {
         live: 'https://lu-gflores.github.io/TrailHeads/'
     }]
 
+    const [workState, setWorkState] = useState(workData);
+    const [workFilter, setWorkFilter] = useState('#JavaScript');
+
+    const handleSelect = (e) => {
+        if(e.target.value === 'All') {
+            setWorkState(workData);
+            return;
+        }
+
+        setWorkFilter(`#${e.target.value}`);
+
+        const tempWorkData = workData.map(item => {
+            if(item.tech.includes(e.target.value)) {
+                return item
+            }
+        })
+
+        const filtered = tempWorkData.filter(item => {
+            return item !== undefined
+        })
+
+        setWorkState(filtered);
+    }
+    
     return (
         <div>
             <Head>
@@ -59,8 +83,18 @@ export default function work() {
 
             <div className={styles.workPage}>
                 <h1 className={styles.workHeader}>Work:</h1>
-                {workData.map(info => {
-                    return <WorkCard props={info} />
+                <select onChange={(e) => handleSelect(e)} className={styles.selectBox} name="tech" id="techSelect">
+                    <option className={styles.workOptions} value="All">All</option>
+                    <option className={styles.workOptions} value="JavaScript">JavaScript</option>
+                    <option className={styles.workOptions} value="HTML">HTML</option>
+                    <option className={styles.workOptions} value="CSS">CSS</option>
+                    <option className={styles.workOptions} value="React">React</option>
+                    <option className={styles.workOptions} value="Next.js">Next.js</option>
+                    <option className={styles.workOptions} value="MongoDB">MongoDB</option>
+                    <option className={styles.workOptions} value="Node.js">Node.js</option>
+                </select>
+                {workState.map((info, i) => {
+                    return <WorkCard props={info} key={i} />
                 })}
             </div>
 
