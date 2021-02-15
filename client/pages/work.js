@@ -21,7 +21,7 @@ export default function work() {
     const workData = [{
         name: 'TravelSalesGroup',
         desc: 'A site to promote the services of the travel agency TravelSalesGroup.',
-        tech: ['React', 'JavaScript', 'CSS', 'HTML', 'Vercel', 'emailJS'],
+        tech: [ 'HTML', 'CSS', 'React', 'Vercel', 'emailJS'],
         gitLink: 'https://github.com/ryand67/TSG-Site',
         live: 'https://www.travelsalesgroup.com'
     }, {
@@ -33,7 +33,7 @@ export default function work() {
     }, {
         name: 'Innovation Auto Repair',
         desc: "An app for an auto repair company in Texas that allows customers to bookappointments, and allows the owners to manage appointments, and available dates.",
-        tech: ['Next.js', 'HTML', 'CSS', 'MongoDB', 'Node.js', 'Express'],
+        tech: ['HTML', 'CSS', 'Next.js', 'MongoDB', 'Node.js', 'Express'],
         gitLink: 'https://github.com/JRivera-31/Innovation-Auto-Repair',
         live: 'https://innovation-auto-repair.vercel.app/'
     }, {
