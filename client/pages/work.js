@@ -52,8 +52,6 @@ export default function work() {
             return;
         }
 
-        setWorkFilter(`#${e.target.value}`);
-
         const tempWorkData = workData.map(item => {
             if(item.tech.includes(e.target.value)) {
                 return item
