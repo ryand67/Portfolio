@@ -27,7 +27,7 @@ export default function work() {
     }, {
         name: 'Squawkr',
         desc: 'A simple message board/social media platform for people to share ideas with others.',
-        tech: ['HTML', 'CSS', 'JavaScript/jQuery', 'Node.js', 'Express', 'MongoDB', 'Heroku'],
+        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Node.js', 'Express', 'MongoDB', 'Heroku'],
         gitLink: 'https://github.com/ryand67/Squawkr',
         live: 'https://squawkr-uncc.herokuapp.com/'
     }, {
@@ -39,7 +39,7 @@ export default function work() {
     }, {
         name: 'TrailHeads',
         desc: 'A simple app that allows users to find hiking trails near them.',
-        tech: ['HTML', 'CSS', 'JavaScript/jQuery', 'Hiking Project API', 'Tailwind'],
+        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Hiking Project API', 'Tailwind'],
         gitLink: 'https://github.com/lu-gflores/TrailHeads',
         live: 'https://lu-gflores.github.io/TrailHeads/'
     }]
@@ -86,6 +86,7 @@ export default function work() {
                 <select onChange={(e) => handleSelect(e)} className={styles.selectBox} name="tech" id="techSelect">
                     <option className={styles.workOptions} value="All">All</option>
                     <option className={styles.workOptions} value="JavaScript">JavaScript</option>
+                    <option className={styles.workOptions} value="jQuery">jQuery</option>
                     <option className={styles.workOptions} value="HTML">HTML</option>
                     <option className={styles.workOptions} value="CSS">CSS</option>
                     <option className={styles.workOptions} value="React">React</option>
