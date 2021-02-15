@@ -45,7 +45,6 @@ export default function work() {
     }]
 
     const [workState, setWorkState] = useState(workData);
-    const [workFilter, setWorkFilter] = useState('#JavaScript');
 
     const handleSelect = (e) => {
         if(e.target.value === 'All') {
@@ -93,6 +92,8 @@ export default function work() {
                     <option className={styles.workOptions} value="Next.js">Next.js</option>
                     <option className={styles.workOptions} value="MongoDB">MongoDB</option>
                     <option className={styles.workOptions} value="Node.js">Node.js</option>
+                    <option className={styles.workOptions} value="Heroku">Heroku</option>
+                    <option className={styles.workOptions} value="Vercel">Vercel</option>
                 </select>
                 {workState.map((info, i) => {
                     return <WorkCard props={info} key={i} />
