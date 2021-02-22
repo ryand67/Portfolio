@@ -37,6 +37,12 @@ export default function work() {
         gitLink: 'https://github.com/JRivera-31/Innovation-Auto-Repair',
         live: 'https://innovation-auto-repair.vercel.app/'
     }, {
+        name: 'Scheduling App',
+        desc: 'A simple app that allows users to book appointments and manage those appointments.',
+        tech: ['HTML', 'CSS', 'Next.js', 'MongoDB', 'Vercel', 'Serverless'],
+        gitLink: 'https://github.com/ryand67/scheduler',
+        live: 'https://scheduler-mu.vercel.app/'
+    }, {
         name: 'TrailHeads',
         desc: 'A simple app that allows users to find hiking trails near them.',
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Hiking Project API', 'Tailwind'],
@@ -92,6 +98,7 @@ export default function work() {
                     <option className={styles.workOptions} value="Node.js">Node.js</option>
                     <option className={styles.workOptions} value="Heroku">Heroku</option>
                     <option className={styles.workOptions} value="Vercel">Vercel</option>
+                    <option className={styles.workOptions} value="Serverless">Serverless</option>
                 </select>
                 {workState.map((info, i) => {
                     return <WorkCard props={info} key={i} />

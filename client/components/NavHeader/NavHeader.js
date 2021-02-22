@@ -6,8 +6,9 @@ export default function NavHeader() {
         <nav className={styles.nav}>
             <ul className={styles.navList}>
                 <li className={styles.navListItem}><a href='/'>home</a></li>
-                <li className={styles.navListItem}><a href='ryanDevenneyResume.pdf' target="_blank">about</a></li>
+                <li className={styles.navListItem}><a>about</a></li>
                 <li className={styles.navListItem}><a href="/work">work</a></li>
+                <li className={styles.navListItem}><a href='ryanDevenneyResume.pdf' target="_blank">resume</a></li>
                 <li className={styles.navListItem}><a href="/contact">contact</a></li>
             </ul>
         </nav>
