@@ -23,8 +23,8 @@ export default function WorkCard({ props, setList, handleSelect }) {
             <h1 className={styles.workCardHeader}><strong><a href={props.live} target="_blank">{props.name}</a></strong></h1>
             <h3>{props.desc}</h3>
             <div className={styles.techListDiv}>
-                {props.tech.map(tech => {
-                    return <h3 className={styles.techList} onClick={() => handleTechClick(tech)}>#{tech}</h3>
+                {props.tech.map((tech, i) => {
+                    return <h3 className={styles.techList} key={i} onClick={() => handleTechClick(tech)}>#{tech}</h3>
                 })}
             </div>
             {/* <h3 className={styles.techList}>{techList}</h3> */}

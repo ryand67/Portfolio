@@ -28,7 +28,7 @@ export default function work() {
     }, {
         name: 'Squawkr',
         desc: 'A simple message board/social media platform for people to share ideas with others.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Node.js', 'Express', 'MongoDB', 'Heroku'],
+        tech: ['HTML', 'CSS', 'jQuery', 'Node.js', 'Express', 'MongoDB'],
         gitLink: 'https://github.com/ryand67/Squawkr',
         live: 'https://squawkr-uncc.herokuapp.com/'
     }, {
