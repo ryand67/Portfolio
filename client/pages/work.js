@@ -10,6 +10,7 @@ import MobileFooter from '../components/MobileFooter/MobileFooter';
 export default function work() {
 
     const [windowWidth, setWindowWidth] = useState();
+    const [listValue, setListValue] = useState('All');
     
     useEffect(() => {
         setWindowWidth(window.innerWidth);
@@ -86,7 +87,7 @@ export default function work() {
 
             <div className={styles.workPage}>
                 <h1 className={styles.workHeader}>Work:</h1>
-                <select onChange={(e) => handleSelect(e)} className={styles.selectBox} name="tech" id="techSelect">
+                <select onChange={(e) => handleSelect(e)} className={styles.selectBox} value={listValue} name="tech" id="techSelect">
                     <option className={styles.workOptions} value="All">All</option>
                     <option className={styles.workOptions} value="JavaScript">JavaScript</option>
                     <option className={styles.workOptions} value="jQuery">jQuery</option>
@@ -101,7 +102,7 @@ export default function work() {
                     <option className={styles.workOptions} value="Serverless">Serverless</option>
                 </select>
                 {workState.map((info, i) => {
-                    return <WorkCard props={info} key={i} />
+                    return <WorkCard props={info} setList={setListValue} handleSelect={handleSelect} key={i} />
                 })}
             </div>
 
