@@ -1,0 +1,14 @@
+/* FONTS */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+.container {
+    background-color: var(--main-accent);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    text-align: left;
+    color: var(--main-text);
+  }
