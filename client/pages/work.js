@@ -54,6 +54,7 @@ export default function work() {
     const [workState, setWorkState] = useState(workData);
 
     const handleSelect = (e) => {
+        setListValue(e.target.value);
         if(e.target.value === 'All') {
             setWorkState(workData);
             return;

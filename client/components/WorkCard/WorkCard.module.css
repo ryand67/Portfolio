@@ -38,8 +38,13 @@
         font-size: 2em;
     }
 
+    .techListDiv * {
+        text-align: left;
+    }
+
     .workCard {
         text-align: center;
+        width: 80%;
     }
 
     .techListDiv {
