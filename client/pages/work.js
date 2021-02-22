@@ -9,7 +9,7 @@ import MobileFooter from '../components/MobileFooter/MobileFooter';
 
 export default function work() {
 
-    const [windowWidth, setWindowWidth] = useState();
+    const [windowWidth, setWindowWidth] = useState(500);
     const [listValue, setListValue] = useState('All');
     
     useEffect(() => {

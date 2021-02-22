@@ -37,4 +37,12 @@
     .workCardHeader {
         font-size: 2em;
     }
+
+    .workCard {
+        text-align: center;
+    }
+
+    .techListDiv {
+        flex-wrap: wrap;
+    }
 }
