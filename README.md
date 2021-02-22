@@ -10,4 +10,4 @@ A place for anyone to contact me or see my work.
 
 ## Deployed
 
-[Live Site](ryandevenney.com)
+[Live Site](https://www.ryandevenney.com)
