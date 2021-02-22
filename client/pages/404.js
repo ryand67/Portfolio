@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-export default function fourOhFour() {
+export default () => {
     useEffect(() => {
         window.location.replace('/');
     })
