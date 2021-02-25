@@ -23,3 +23,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media only screen and (min-width: 2200px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  body {
+    font-size: 32px;
+  }
+}

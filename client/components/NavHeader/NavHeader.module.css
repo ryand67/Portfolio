@@ -24,9 +24,12 @@
     z-index: 9;
     content: '';
     position: absolute;
-    top: 55px;
+    /* top: 55px;
     width: 60px;
-    height: 3px;
+    height: 3px; */
+    top: 1.7em;
+    width: 2em;
+    height: .1em;
     background-color: var(--orange-accent);
     transform-origin: center;
     transform: scaleX(.5);
