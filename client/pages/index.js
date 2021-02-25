@@ -32,7 +32,7 @@ export default function Home() {
       <main className={styles.homeMain}>
         <h1 className={styles.mainHeader}>Ryan Devenney</h1>
         <div className={styles.subHeadInfo}>
-          <h2 className={styles.subHeader}>I'm a Full Stack Web Developer located in Charlotte, NC looking to make your next project a reality.</h2>
+          <h2 className={styles.subHeader}>Full-Stack Web Developer located in Charlotte, NC looking to make your next project a reality.</h2>
           <h2 className={styles.subHeader}>Check out my past work <em><a href="/work" className={styles.mainLink}>here</a></em>.</h2>
         </div>
       </main>
