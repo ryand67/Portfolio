@@ -49,6 +49,12 @@ export default function work() {
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Hiking Project API', 'Tailwind'],
         gitLink: 'https://github.com/lu-gflores/TrailHeads',
         live: 'https://lu-gflores.github.io/TrailHeads/'
+    }, {
+        name: 'Weather Dashboard',
+        desc: 'A Vue.js app that lets the user find weather information about their city of choice.',
+        tech: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Vercel'],
+        gitLink: 'https://github.com/ryand67/vue-weather-app',
+        live: 'https://vue-weather-app-ten.vercel.app/'
     }]
 
     const [workState, setWorkState] = useState(workData);
@@ -95,6 +101,7 @@ export default function work() {
                     <option className={styles.workOptions} value="HTML">HTML</option>
                     <option className={styles.workOptions} value="CSS">CSS</option>
                     <option className={styles.workOptions} value="React">React</option>
+                    <option className={styles.workOptions} value="Vue.js">Vue.js</option>
                     <option className={styles.workOptions} value="Next.js">Next.js</option>
                     <option className={styles.workOptions} value="MongoDB">MongoDB</option>
                     <option className={styles.workOptions} value="Node.js">Node.js</option>
