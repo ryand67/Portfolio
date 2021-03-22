@@ -26,6 +26,10 @@
     color: var(--main-text);
 }
 
+.searchBlurb {
+    margin-top: 0;
+}
+
 @media only screen and (max-width: 475px) {
     .workPage {
         padding-top: 1em;
