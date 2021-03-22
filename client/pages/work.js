@@ -100,6 +100,7 @@ export default function work() {
 
             <div className={styles.workPage}>
                 <h1 className={styles.workHeader}>Work:</h1>
+                <p>Search By Technology:</p>
                 <select onChange={(e) => handleSelect(e)} className={styles.selectBox} value={listValue} name="tech" id="techSelect">
                     <option className={styles.workOptions} value="All">All</option>
                     <option className={styles.workOptions} value="JavaScript">JavaScript</option>
