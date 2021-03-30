@@ -46,6 +46,12 @@
     cursor: pointer;
     border: 1px solid var(--main-text);
     background-color: transparent;
+    transition: .3s ease-in-out;
+}
+
+.contactForm button:hover {
+    background-color: var(--main-text);
+    color: var(--main-accent);
 }
 
 @media only screen and (max-width: 600px) {
