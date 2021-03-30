@@ -49,12 +49,6 @@ export default function work() {
         tech: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Vercel'],
         gitLink: 'https://github.com/ryand67/vue-weather-app',
         live: 'https://vue-weather-app-ten.vercel.app/'
-    }, {
-        name: 'Budgeting App',
-        desc: 'A simple desktop application to track your income and expenses. Not mobile responsive.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'Next.js', 'MongoDB', 'Vercel'],
-        gitLink: 'https://github.com/ryand67/Budgeting-App',
-        live: 'https://budgeting-app-nu.vercel.app/'
     }]
 
     const [workState, setWorkState] = useState(workData);
