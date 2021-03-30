@@ -15,6 +15,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--main-accent);
   font-size: 16px;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
