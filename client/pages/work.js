@@ -101,6 +101,7 @@ export default function work() {
                     <option className={styles.workOptions} value="jQuery">jQuery</option>
                     <option className={styles.workOptions} value="HTML">HTML</option>
                     <option className={styles.workOptions} value="CSS">CSS</option>
+                    <option className={styles.workOptions} value="SCSS">SCSS</option>
                     <option className={styles.workOptions} value="React">React</option>
                     <option className={styles.workOptions} value="Vue.js">Vue.js</option>
                     <option className={styles.workOptions} value="Next.js">Next.js</option>
