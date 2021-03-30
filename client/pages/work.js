@@ -20,6 +20,12 @@ export default function work() {
     })
     
     const workData = [{
+        name: 'Lorem Architecture',
+        desc: 'A landing page for your favorite totally real aesthetic architecture firm.',
+        tech: [ 'HTML', 'SCSS', 'React', 'Vercel', 'emailJS' ],
+        gitLink: 'https://github.com/ryand67/lorem-architecture',
+        live: 'https://www.loremarchitecture.com/'
+    }, {
         name: 'TravelSalesGroup',
         desc: 'A site to promote the services of the travel agency TravelSalesGroup.',
         tech: [ 'HTML', 'CSS', 'React', 'Vercel', 'emailJS'],
