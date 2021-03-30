@@ -11,6 +11,7 @@
   /* align-items: flex-start; */
   text-align: left;
   color: var(--main-text);
+  overflow: hidden;
 }
 
 .homeMain {
