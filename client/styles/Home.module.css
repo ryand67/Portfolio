@@ -39,14 +39,15 @@
   margin: .5em;
   margin-bottom: 1em;
   font-size: 2em;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--sans-serrif);
+  font-weight: 200;
 }
 
 .subHeaderList {
   margin: .5em;
   font-size: 2em;
   font-weight: 400;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: var(--sans-serrif), sans-serif;
 }
 
 .mainLink {

@@ -14,7 +14,7 @@
 }
 
 .navListItem {
-    font-size: 2em;
+    font-size: 1.7em;
     padding-right: 1.5em;
     cursor: pointer;
     z-index: 10;
@@ -27,7 +27,7 @@
     /* top: 55px;
     width: 60px;
     height: 3px; */
-    top: 1.7em;
+    top: 1.75em;
     width: 2em;
     height: .1em;
     background-color: var(--orange-accent);

@@ -1,6 +1,6 @@
 .workCard {
     width: 50%;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: var(--sans-serrif);
     padding-bottom: 1em;
 }
 
