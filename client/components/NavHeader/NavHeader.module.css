@@ -32,10 +32,39 @@
     height: .1em;
     background-color: var(--orange-accent);
     transform-origin: center;
-    transform: scaleX(.5);
-    transition: .3s ease-in-out;
+    transform: scaleX(.9);
+    transition: 0s;
 }
 
 .navListItem:hover::before {
+    transform: scaleX(.9);
+}
+
+.disabled {
+    font-size: 1.7em;
+    padding-right: 1.5em;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.disabled::before {
+    opacity: 0;
+    z-index: 9;
+    content: '';
+    position: absolute;
+    /* top: 55px;
+    width: 60px;
+    height: 3px; */
+    top: 1.75em;
+    width: 2em;
+    height: .1em;
+    background-color: var(--orange-accent);
+    transform-origin: center;
+    transform: scaleX(.5);
+    transition: all .3s ease-in-out;
+}
+
+.disabled:hover::before {
+    opacity: 1;
     transform: scaleX(.9);
 }
