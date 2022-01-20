@@ -14,7 +14,7 @@ export default function NavHeader() {
             <ul className={styles.navList}>
                 <li className={path === '/' ? `${styles.navListItem}` : `${styles.disabled}`}><a href='/'>home</a></li>
                 <li className={path === '/work' ? `${styles.navListItem}` : `${styles.disabled}`}><a href="/work">work</a></li>
-                <li className={styles.disabled}><a href='ryanDevenneyResumeCharter.pdf' target="_blank">resume</a></li>
+                <li className={styles.disabled}><a href='ryanDevenneyResume.pdf' target="_blank">resume</a></li>
                 <li className={path === '/contact' ? `${styles.navListItem}` : `${styles.disabled}`}><a href="/contact">contact</a></li>
             </ul>
         </nav>
