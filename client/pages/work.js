@@ -34,7 +34,7 @@ export default function work() {
     }, {
         name: 'Innovation Auto Repair',
         desc: "An app for an auto repair company in Texas that allows customers to bookappointments, and allows the owners to manage appointments, and available dates.",
-        tech: ['HTML', 'CSS', 'Next.js', 'MongoDB', 'Node.js', 'Express'],
+        tech: ['HTML', 'CSS', 'Next.js', 'React', 'MongoDB', 'Node.js', 'Express'],
         gitLink: 'https://github.com/JRivera-31/Innovation-Auto-Repair',
         live: 'https://innovation-auto-repair.vercel.app/'
     }, {
@@ -43,12 +43,6 @@ export default function work() {
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Hiking Project API', 'Tailwind'],
         gitLink: 'https://github.com/lu-gflores/TrailHeads',
         live: 'https://lu-gflores.github.io/TrailHeads/'
-    }, {
-        name: 'Weather Dashboard',
-        desc: 'A Vue.js app that lets the user find weather information about their city of choice.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Vercel'],
-        gitLink: 'https://github.com/ryand67/vue-weather-app',
-        live: 'https://vue-weather-app-ten.vercel.app/'
     }]
 
     const [workState, setWorkState] = useState(workData);
@@ -95,15 +89,10 @@ export default function work() {
                     <option className={styles.workOptions} value="jQuery">jQuery</option>
                     <option className={styles.workOptions} value="HTML">HTML</option>
                     <option className={styles.workOptions} value="CSS">CSS</option>
-                    <option className={styles.workOptions} value="SCSS">SCSS</option>
                     <option className={styles.workOptions} value="React">React</option>
-                    <option className={styles.workOptions} value="Vue.js">Vue.js</option>
                     <option className={styles.workOptions} value="Next.js">Next.js</option>
                     <option className={styles.workOptions} value="MongoDB">MongoDB</option>
                     <option className={styles.workOptions} value="Node.js">Node.js</option>
-                    <option className={styles.workOptions} value="Heroku">Heroku</option>
-                    <option className={styles.workOptions} value="Vercel">Vercel</option>
-                    <option className={styles.workOptions} value="Serverless">Serverless</option>
                 </select>
                 {workState.map((info, i) => {
                     return <WorkCard props={info} setList={setListValue} handleSelect={handleSelect} key={i} />
