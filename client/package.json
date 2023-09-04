@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.2",
     "emailjs-com": "^2.6.4",
     "next": "13.1.5",
     "react": "17.0.1",
